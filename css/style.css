@@ -9,35 +9,34 @@ body{
 	font-family: "Lobster", serif;
 }
 
-.word-wrap{
-word-wrap: break-word;
-}
+.word-wrap{word-wrap: break-word;}
 
-.full-width{
-	width:100%;
-}
+.full-width{width:100%;}
+
+.font-125{font-size:125%;}
+.font-150{font-size:150%;}
+.font-175{font-size:175%;}
+.font-200{font-size:200%;}
+.font-225{font-size:225%;}
+.font-250{font-size:250%;}
 
 header.row{
 	background-color:white;
 	border-bottom:1px solid gray;
 	margin-bottom:0px;
-	height:81px;
 	position:fixed;
 	z-index:100;
 	top:0;
 	width:100%;
 }
 
-header h3.lobster{
-	font-size:225%;
-}
+header a{cursor:pointer;color:black;}
 
 div.container{
 	padding:15px;
 }
 
 .slider{
-	margin-top:80px;
 	background:url("../assets/img/back.jpg") no-repeat center center;
 	-webkit-background-size: cover;
   -moz-background-size: cover;
