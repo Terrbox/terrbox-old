@@ -30,7 +30,7 @@ header.row{
 	width:100%;
 }
 
-header a{cursor:pointer;color:black;}
+header a{cursor:pointer; color:red;}
 
 div.container{
 	padding:15px;
