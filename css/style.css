@@ -1,7 +1,35 @@
+html, body{
+	height:100%;
+}
 body{
 	background-color: #fafafa;
+	font-family: "Montserrat", sans-serif;
 }
 
-.col{
-	text-align: center;
+header.row{
+	background-color:white;
+	border-bottom:1px solid gray;
+	margin-bottom:0px;
+	height:81px;
+	position:fixed;
+	z-index:100;
+	top:0;
+	width:100%;
 }
+
+div.container{
+	padding:15px;
+}
+h1, h2, h3{
+	font-family: "Lobster", serif;
+}
+.slider{
+	margin-top:81px;
+	background:url("../assets/img/back.jpg") no-repeat center center;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	
+}
+
