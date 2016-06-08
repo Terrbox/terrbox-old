@@ -13,6 +13,10 @@ body{
 word-wrap: break-word;
 }
 
+.full-width{
+	width:100%;
+}
+
 header.row{
 	background-color:white;
 	border-bottom:1px solid gray;
