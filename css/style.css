@@ -5,6 +5,13 @@ body{
 	background-color: #fafafa;
 	font-family: "Montserrat", sans-serif;
 }
+.lobster{
+	font-family: "Lobster", serif;
+}
+
+.word-wrap{
+word-wrap: break-word;
+}
 
 header.row{
 	background-color:white;
@@ -17,12 +24,14 @@ header.row{
 	width:100%;
 }
 
+header h3.lobster{
+	font-size:225%;
+}
+
 div.container{
 	padding:15px;
 }
-.lobster{
-	font-family: "Lobster", serif;
-}
+
 .slider{
 	margin-top:81px;
 	background:url("../assets/img/back.jpg") no-repeat center center;
