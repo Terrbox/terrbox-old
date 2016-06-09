@@ -13,14 +13,14 @@ body{
 
 .full-width{width:100%;}
 
-.font-125{font-size:125%;}
-.font-150{font-size:150%;}
-.font-175{font-size:175%;}
-.font-200{font-size:200%;}
-.font-225{font-size:225%;}
-.font-250{font-size:250%;}
-.font-275{font-size:275%;}
-.font-300{font-size:300%;}
+.font-125{font-size:125%!important;}
+.font-150{font-size:150%!important;}
+.font-175{font-size:175%!important;}
+.font-200{font-size:200%!important;}
+.font-225{font-size:225%!important;}
+.font-250{font-size:250%!important;}
+.font-275{font-size:275%!important;}
+.font-300{font-size:300%!important;}
 
 
 header.row{
@@ -36,6 +36,12 @@ header.row{
 header h1{margin: 1.78rem 0 1.424rem 0}
 
 header a{cursor:pointer; color:red;}
+
+a.button-collapse.hide-on-large-only{
+position: absolute;
+left: 25px;
+top: 26px;
+}
 
 .wall h2{font-size:4.2em;}
 

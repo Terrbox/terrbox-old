@@ -6,25 +6,29 @@ function heightSlide(){
 
 $( window ).load(function() {
 	$(".button-collapse").sideNav();
-	$("#atech").click(function() {
+	$(".atech").click(function() {
 	    $('html, body').animate({
-	        scrollTop: $("#tech").offset().top-100
+	        scrollTop: $("#tech").offset().top-120
 	    }, 1000);
+	    $('.button-collapse').sideNav('hide');
 	});
-	$("#aother").click(function() {
+	$(".aother").click(function() {
 	    $('html, body').animate({
-	        scrollTop: $("#other").offset().top-100
+	        scrollTop: $("#other").offset().top-120
 	    }, 1000);
+	    $('.button-collapse').sideNav('hide');
 	});
-	$("#acontact").click(function() {
+	$(".acontact").click(function() {
 	    $('html, body').animate({
-	        scrollTop: $("#contact").offset().top-100
+	        scrollTop: $("#contact").offset().top-120
 	    }, 1000);
+	    $('.button-collapse').sideNav('hide');
 	});
 	$(".arepo").click(function() {
 	    $('html, body').animate({
-	        scrollTop: $("#repo").offset().top-100
+	        scrollTop: $("#repo").offset().top-120
 	    }, 1000);
+	    $('.button-collapse').sideNav('hide');
 	});
 
 	heightSlide();
