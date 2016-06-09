@@ -19,6 +19,9 @@ body{
 .font-200{font-size:200%;}
 .font-225{font-size:225%;}
 .font-250{font-size:250%;}
+.font-275{font-size:275%;}
+.font-300{font-size:300%;}
+
 
 header.row{
 	background-color:white;
@@ -30,11 +33,13 @@ header.row{
 	width:100%;
 }
 
+header h1{margin: 1.78rem 0 1.424rem 0}
+
 header a{cursor:pointer; color:red;}
 
-div.container{
-	padding:15px;
-}
+.wall h2{font-size:4.2em;}
+
+div.container{padding:15px;}
 
 .slider{
 	background:url("../assets/img/back.jpg") no-repeat center center;
