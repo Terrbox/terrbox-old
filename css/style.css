@@ -22,6 +22,13 @@ body{
 .font-275{font-size:275%!important;}
 .font-300{font-size:300%!important;}
 
+@media (max-width: 450px) {
+.hide-on-ssmall-only{display:none;}
+}
+
+@media (min-width: 451px) {
+.hide-on-small-and-up{display:none;}
+}
 
 header.row{
 	background-color:white;
