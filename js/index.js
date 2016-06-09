@@ -5,6 +5,7 @@ function heightSlide(){
 }
 
 $( window ).load(function() {
+	$(".button-collapse").sideNav();
 	$("#atech").click(function() {
 	    $('html, body').animate({
 	        scrollTop: $("#tech").offset().top-100

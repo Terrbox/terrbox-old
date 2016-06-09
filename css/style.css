@@ -28,7 +28,7 @@ header.row{
 	border-bottom:1px solid gray;
 	margin-bottom:0px;
 	position:fixed;
-	z-index:100;
+	z-index:998;
 	top:0;
 	width:100%;
 }
